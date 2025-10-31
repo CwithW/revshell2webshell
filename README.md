@@ -16,7 +16,7 @@ first, change the SHELLBIN_ADDR in app.ts to your ShellBin deployment addr.
 
 ```
 npm install
-# you should have tsc in your global environment, if not, run `npm install -g tsc`
+# you should have typescript installed your global environment, if not, run `npm install -g typescript`
 tsc
 ```
 
@@ -28,7 +28,7 @@ tsc
 node app.js
 ```
 
-have a shell in Shellbin. copy its uuid. (`http://shellapp.example.com/#/client/2f85884c-c28b-49cc-92aa-535a99ddc4cd` -> uuid=`2f85884c-c28b-49cc-92aa-535a99ddc4cd`)
+have a reverse shell in ShellBin. copy its uuid. (`http://shellbin.example.com/#/client/2f85884c-c28b-49cc-92aa-535a99ddc4cd` -> uuid=`2f85884c-c28b-49cc-92aa-535a99ddc4cd`)
 
 in AntSword, create a shell `http://localhost:3000/shell/<OS>/<UUID>`, os can be linux/windows.
 

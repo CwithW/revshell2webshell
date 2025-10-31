@@ -6,7 +6,7 @@ app.use(express.urlencoded({ limit: "50mb", extended: false }))
 const port = 3000;
 
 //CHANGEME
-const SHELLBIN_ADDR = "http://shellbin.changeme.com"
+const SHELLBIN_ADDR = "http://shellbin.example.com"
 
 function get_ws_host(): string {
     if (SHELLBIN_ADDR.startsWith("http://")) {
